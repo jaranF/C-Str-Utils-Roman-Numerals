@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		975A47EE1E596C7700BC6310 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 975A47ED1E596C7700BC6310 /* main.c */; };
 		975A47F01E596C7700BC6310 /* Roman_Numerals.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 975A47EF1E596C7700BC6310 /* Roman_Numerals.1 */; };
+		975A47FE1E59792D00BC6310 /* Executables_Path.c in Sources */ = {isa = PBXBuildFile; fileRef = 975A47FD1E59792D00BC6310 /* Executables_Path.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,7 @@
 		975A47EA1E596C7700BC6310 /* Roman-Numerals */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Roman-Numerals"; sourceTree = BUILT_PRODUCTS_DIR; };
 		975A47ED1E596C7700BC6310 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		975A47EF1E596C7700BC6310 /* Roman_Numerals.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Roman_Numerals.1; sourceTree = "<group>"; };
+		975A47FD1E59792D00BC6310 /* Executables_Path.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Executables_Path.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,10 +62,19 @@
 		975A47EC1E596C7700BC6310 /* Roman-Numerals */ = {
 			isa = PBXGroup;
 			children = (
+				975A47FC1E59790F00BC6310 /* Runtime_Environment */,
 				975A47ED1E596C7700BC6310 /* main.c */,
 				975A47EF1E596C7700BC6310 /* Roman_Numerals.1 */,
 			);
 			path = "Roman-Numerals";
+			sourceTree = "<group>";
+		};
+		975A47FC1E59790F00BC6310 /* Runtime_Environment */ = {
+			isa = PBXGroup;
+			children = (
+				975A47FD1E59792D00BC6310 /* Executables_Path.c */,
+			);
+			name = Runtime_Environment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -117,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				975A47FE1E59792D00BC6310 /* Executables_Path.c in Sources */,
 				975A47EE1E596C7700BC6310 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
