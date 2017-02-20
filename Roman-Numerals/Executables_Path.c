@@ -27,7 +27,6 @@ char* Executables_Path(char* fullPathToExecutable) {
     
 	strcpy(fullPathToExecutable, bundle_id);
 	strcat(fullPathToExecutable, "/");
-    printf("\n%s\n", fullPathToExecutable);
     charBuffPointer = fullPathToExecutable;
     return charBuffPointer;
 }

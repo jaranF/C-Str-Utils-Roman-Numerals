@@ -59,7 +59,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "2016"
+            argument = "1558"
             isEnabled = "YES">
          </CommandLineArgument>
       </CommandLineArguments>
