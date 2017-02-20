@@ -60,7 +60,6 @@ char* RomanNumerals(const char* buffDecimalToConvert) {
         
     };
     memset(resultingRomanNumber, '\0', 14);
-    //strcat(resultingRomanNumber, "A"); this will be added in at to the left of the first \0 char in string buffer array
     strcpy(buff, buffDecimalToConvert);
     buffPointer = &buff[0] + strlen(buff);
     toConvertLen = strlen(buff);
@@ -73,15 +72,8 @@ char* RomanNumerals(const char* buffDecimalToConvert) {
         i--;
     }
     ConvertToRoman(decimalToConvert, resultingRomanNumber, romanNumerals, 0);
-    printf("%s", resultingRomanNumber); //
+    printf("%s", resultingRomanNumber);
     buffPointer = resultingRomanNumber;
-    //   for (i = 0; i < kCardinalOfDigits; i++) {
-    //       toIntExploded[i] = buff[i] - kASCIIOfsetToIntValue;
-    //       //printf("- %d -\n", toIntExploded[i]);
-    //   }
-    //   memset(romanNumeralResult,' ',13);
-    //   romanNumeralResult[13] = '\0';
-    //   puts(romanNumeralResult);
     return buffPointer;
 }
 
@@ -120,5 +112,5 @@ char* ConvertIntArrayToChar(int* pointerToArray, int intArraySize, char* charArr
     }
     return charArrayResult;
 }
-//ret romanStringBuilder, incrementable pointer to char array, incrementalable pointer to int array of Numeral values 1000, 500, 100, incrementalble pointer to cooresponding int value of numerals
+
 
